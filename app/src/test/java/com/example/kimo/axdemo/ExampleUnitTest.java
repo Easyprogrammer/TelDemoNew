@@ -1,4 +1,4 @@
-package com.example.kimo.teldemo;
+package com.example.kimo.axdemo;
 
 import org.junit.Test;
 

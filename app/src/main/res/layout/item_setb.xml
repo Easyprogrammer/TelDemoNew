@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time:" />
+
+    <TextView
+        android:id="@+id/tv_bindid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bindId:" />
+
+    <LinearLayout
+        android:id="@+id/ll_cityid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cityid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cityId:" />
+
+        <EditText
+            android:id="@+id/et_cityid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="小号归属地区号去首位0"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_caller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_caller"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="callee:" />
+
+        <EditText
+            android:id="@+id/et_caller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="如需拨打B，请填写号码"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="call" />
+
+        <Button
+            android:id="@+id/btn_unbind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:text="UNBIND" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.kimo.teldemo;
+package com.example.kimo.axdemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
